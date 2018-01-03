@@ -34,5 +34,8 @@ class ViewController: UIViewController {
         newBallImage()
     }
     
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        newBallImage()
+    }
 }
 
